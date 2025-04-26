@@ -1,0 +1,34 @@
+.account {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.account:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.account form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.accounts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.accounts button {
+    width: 95%;
+}
+
+.accounts a {
+    width: 90%;
+    text-align: center;
+}

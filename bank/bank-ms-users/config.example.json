@@ -1,0 +1,25 @@
+{
+  "hs512SecretKey": "",
+  "rs256PrivateKey": "rsaprivate.pem",
+  "rs256PublicKey": "rsapublic.pem",
+  "redis": {
+    "password": "",
+    "host":  "localhost",
+    "port": 6379,
+    "database":  0,
+    "maxCons": 10
+  },
+  "postgres": {
+    "login":  "postgres",
+    "password": "postgres",
+    "host":  "localhost",
+    "port": 5432,
+    "dataBase":  "postgres",
+    "maxCons": 10
+  },
+  "telegram": {
+    "baseURL": "http://localhost:9991",
+    "login": "",
+    "password": ""
+  }
+}

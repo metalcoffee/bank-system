@@ -1,0 +1,12 @@
+#auth-hist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.histEntity {
+    width: 40%;
+    margin: 20px;
+    background-color: #F2B366;
+    padding: 10px;
+    border-radius: 10px;
+}
